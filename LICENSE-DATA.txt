@@ -1,0 +1,15 @@
+Polestar guide data: third-party notices
+========================================
+
+The guides in this folder were written for Polestar. Quest titles, names and
+coordinates in them were filled in from the reference data sources below.
+
+No reference data sources were recorded (data/forever/meta.json has none).
+
+Guide pack permission
+---------------------
+This folder was produced by Polestar's compiler. Polestar's LICENSE-EXCEPTION.md
+gives permission to distribute guide packs produced by the compiler, including
+the parts of Polestar's reference data placed in them, under terms of your
+choice. It does not cover guide text copied from Polestar's own guides, or
+Polestar's code.
