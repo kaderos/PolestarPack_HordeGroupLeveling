@@ -1,10 +1,11 @@
--- Five Friends Horde, v1.2.0; generated from the audited PS1 guide payloads.
+-- Five Friends Horde, v1.2.1; generated from the audited PS1 guide payloads.
 -- Stable guide IDs preserve progress from version 1.1.0.
 -- Source: guides/01-preparation-dustwallow.guide
 do
 	local function register()
 		Polestar.RegisterGuide({
 			id = "five-friends-43-48/01-preparation-dustwallow",
+			pack = "five-friends-43-48",
 			title = "01 - Prep & Dustwallow (43-44)",
 			faction = "Horde",
 			minLevel = 43,
@@ -678,6 +679,7 @@ do
 	local function register()
 		Polestar.RegisterGuide({
 			id = "five-friends-43-48/04-uldaman",
+			pack = "five-friends-43-48",
 			title = "02 - Uldaman & Deliveries (44-44)",
 			faction = "Horde",
 			minLevel = 44,
@@ -999,6 +1001,7 @@ do
 	local function register()
 		Polestar.RegisterGuide({
 			id = "five-friends-43-48/02-tanaris-feralas",
+			pack = "five-friends-43-48",
 			title = "03 - Tanaris & Feralas (44-45)",
 			faction = "Horde",
 			minLevel = 44,
@@ -1799,6 +1802,7 @@ do
 	local function register()
 		Polestar.RegisterGuide({
 			id = "five-friends-43-48/03-shendralas",
+			pack = "five-friends-43-48",
 			title = "04 - Shen'dralas & Maraudon Prep (45-45)",
 			faction = "Horde",
 			minLevel = 45,
@@ -2482,6 +2486,7 @@ do
 	local function register()
 		Polestar.RegisterGuide({
 			id = "five-friends-43-48/05-searing-gorge",
+			pack = "five-friends-43-48",
 			title = "05 - Searing Gorge (45-46)",
 			faction = "Horde",
 			minLevel = 45,
@@ -3096,6 +3101,7 @@ do
 	local function register()
 		Polestar.RegisterGuide({
 			id = "five-friends-43-48/06-hinterlands",
+			pack = "five-friends-43-48",
 			title = "06 - Hinterlands & Jintha'Alor (46-47)",
 			faction = "Horde",
 			minLevel = 46,
@@ -3795,6 +3801,7 @@ do
 	local function register()
 		Polestar.RegisterGuide({
 			id = "five-friends-43-48/07-zulfarrak",
+			pack = "five-friends-43-48",
 			title = "07 - Zul'Farrak (47-48)",
 			faction = "Horde",
 			minLevel = 47,
@@ -4201,6 +4208,7 @@ do
 	local function register()
 		Polestar.RegisterGuide({
 			id = "five-friends-43-48/08-maraudon-finish",
+			pack = "five-friends-43-48",
 			title = "08 - Maraudon & Final Rewards (48-49)",
 			faction = "Horde",
 			minLevel = 48,

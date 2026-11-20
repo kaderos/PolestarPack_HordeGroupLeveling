@@ -1,0 +1,11 @@
+IMPORT UPDATED GUIDES IN THIS ORDER (latest chapter first; chapter IDs stay stable):
+ 08-maraudon-finish.txt
+ 07-zulfarrak.txt
+ 06-hinterlands.txt
+ 05-searing-gorge.txt
+ 04-shendralas.txt
+ 03-tanaris-feralas.txt
+ 02-uldaman.txt
+ 01-preparation-dustwallow.txt
+
+Use /polestar import, choose Update, and restart/reselect if needed. Do not install the folder and import duplicates.

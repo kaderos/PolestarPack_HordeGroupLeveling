@@ -1,0 +1,283 @@
+{
+  "version": "1.2.0",
+  "guide_order": [
+    "01-preparation-dustwallow",
+    "04-uldaman",
+    "02-tanaris-feralas",
+    "03-shendralas",
+    "05-searing-gorge",
+    "06-hinterlands",
+    "07-zulfarrak",
+    "08-maraudon-finish"
+  ],
+  "bands": [
+    {
+      "stage": 1,
+      "guide_id": "five-friends-43-48/01-preparation-dustwallow",
+      "title": "01 - Prep & Dustwallow",
+      "band": "43-44",
+      "low_bonus_3pct_end": 43.552,
+      "planning_13pct_end": 43.606
+    },
+    {
+      "stage": 2,
+      "guide_id": "five-friends-43-48/04-uldaman",
+      "title": "02 - Uldaman & Deliveries",
+      "band": "44-44",
+      "low_bonus_3pct_end": 44.011,
+      "planning_13pct_end": 44.104
+    },
+    {
+      "stage": 3,
+      "guide_id": "five-friends-43-48/02-tanaris-feralas",
+      "title": "03 - Tanaris & Feralas",
+      "band": "44-45",
+      "low_bonus_3pct_end": 44.695,
+      "planning_13pct_end": 44.854
+    },
+    {
+      "stage": 4,
+      "guide_id": "five-friends-43-48/03-shendralas",
+      "title": "04 - Shen'dralas & Maraudon Prep",
+      "band": "45-45",
+      "low_bonus_3pct_end": 45.025,
+      "planning_13pct_end": 45.208
+    },
+    {
+      "stage": 5,
+      "guide_id": "five-friends-43-48/05-searing-gorge",
+      "title": "05 - Searing Gorge",
+      "band": "45-46",
+      "low_bonus_3pct_end": 45.569,
+      "planning_13pct_end": 45.804
+    },
+    {
+      "stage": 6,
+      "guide_id": "five-friends-43-48/06-hinterlands",
+      "title": "06 - Hinterlands & Jintha'Alor",
+      "band": "46-47",
+      "low_bonus_3pct_end": 46.41,
+      "planning_13pct_end": 46.714
+    },
+    {
+      "stage": 7,
+      "guide_id": "five-friends-43-48/07-zulfarrak",
+      "title": "07 - Zul'Farrak",
+      "band": "47-48",
+      "low_bonus_3pct_end": 47.16,
+      "planning_13pct_end": 47.521
+    },
+    {
+      "stage": 8,
+      "guide_id": "five-friends-43-48/08-maraudon-finish",
+      "title": "08 - Maraudon & Final Rewards",
+      "band": "48-49",
+      "low_bonus_3pct_end": 48.089,
+      "planning_13pct_end": 48.509
+    }
+  ],
+  "scenarios": {
+    "0.13": {
+      "initial": 43,
+      "bonus": 0.13,
+      "checkpoints": [
+        {
+          "chapter": "01-preparation-dustwallow",
+          "start": 43.0,
+          "finish": 43.606,
+          "xp": 64376,
+          "turnins": 15
+        },
+        {
+          "chapter": "04-uldaman",
+          "start": 43.606,
+          "finish": 44.104,
+          "xp": 53585,
+          "turnins": 10
+        },
+        {
+          "chapter": "02-tanaris-feralas",
+          "start": 44.104,
+          "finish": 44.854,
+          "xp": 83857,
+          "turnins": 22
+        },
+        {
+          "chapter": "03-shendralas",
+          "start": 44.854,
+          "finish": 45.208,
+          "xp": 40725,
+          "turnins": 14
+        },
+        {
+          "chapter": "05-searing-gorge",
+          "start": 45.208,
+          "finish": 45.804,
+          "xp": 70026,
+          "turnins": 16
+        },
+        {
+          "chapter": "06-hinterlands",
+          "start": 45.804,
+          "finish": 46.714,
+          "xp": 111045,
+          "turnins": 19
+        },
+        {
+          "chapter": "07-zulfarrak",
+          "start": 46.714,
+          "finish": 47.521,
+          "xp": 102434,
+          "turnins": 10
+        },
+        {
+          "chapter": "08-maraudon-finish",
+          "start": 47.521,
+          "finish": 48.509,
+          "xp": 130628,
+          "turnins": 11
+        }
+      ],
+      "end": 48.509081421169505,
+      "gained": 656676.9,
+      "questearned": 625285.5,
+      "killearned": 31391.4,
+      "reductions": [
+        {
+          "chapter": "01-preparation-dustwallow",
+          "id": 2418,
+          "level": 43.0,
+          "quest_level": 36,
+          "base": 3500,
+          "multiplier": 0.6,
+          "xp_lost": 1400.0
+        },
+        {
+          "chapter": "08-maraudon-finish",
+          "id": 7068,
+          "level": 48.28,
+          "quest_level": 42,
+          "base": 6750,
+          "multiplier": 0.8,
+          "xp_lost": 1349.9999999999998
+        }
+      ],
+      "failures": [],
+      "levelgates": [
+        {
+          "chapter": "05-searing-gorge",
+          "target": 45,
+          "have": 45.208027234042554
+        },
+        {
+          "chapter": "06-hinterlands",
+          "target": 46,
+          "have": 46.32037012987013
+        },
+        {
+          "chapter": "08-maraudon-finish",
+          "target": 48,
+          "have": 48.509081421169505
+        }
+      ],
+      "turnins": 117
+    },
+    "0.03": {
+      "initial": 43,
+      "bonus": 0.03,
+      "checkpoints": [
+        {
+          "chapter": "01-preparation-dustwallow",
+          "start": 43.0,
+          "finish": 43.552,
+          "xp": 58679,
+          "turnins": 15
+        },
+        {
+          "chapter": "04-uldaman",
+          "start": 43.552,
+          "finish": 44.011,
+          "xp": 48843,
+          "turnins": 10
+        },
+        {
+          "chapter": "02-tanaris-feralas",
+          "start": 44.011,
+          "finish": 44.695,
+          "xp": 76436,
+          "turnins": 22
+        },
+        {
+          "chapter": "03-shendralas",
+          "start": 44.695,
+          "finish": 45.025,
+          "xp": 37121,
+          "turnins": 14
+        },
+        {
+          "chapter": "05-searing-gorge",
+          "start": 45.025,
+          "finish": 45.569,
+          "xp": 63829,
+          "turnins": 16
+        },
+        {
+          "chapter": "06-hinterlands",
+          "start": 45.569,
+          "finish": 46.41,
+          "xp": 101218,
+          "turnins": 19
+        },
+        {
+          "chapter": "07-zulfarrak",
+          "start": 46.41,
+          "finish": 47.16,
+          "xp": 93370,
+          "turnins": 10
+        },
+        {
+          "chapter": "08-maraudon-finish",
+          "start": 47.16,
+          "finish": 48.089,
+          "xp": 120459,
+          "turnins": 11
+        }
+      ],
+      "end": 48.08922575869726,
+      "gained": 599954.4000000001,
+      "questearned": 571341.0,
+      "killearned": 28613.399999999998,
+      "reductions": [
+        {
+          "chapter": "01-preparation-dustwallow",
+          "id": 2418,
+          "level": 43.0,
+          "quest_level": 36,
+          "base": 3500,
+          "multiplier": 0.6,
+          "xp_lost": 1400.0
+        }
+      ],
+      "failures": [],
+      "levelgates": [
+        {
+          "chapter": "05-searing-gorge",
+          "target": 45,
+          "have": 45.02535489361702
+        },
+        {
+          "chapter": "06-hinterlands",
+          "target": 46,
+          "have": 46.050954545454545
+        },
+        {
+          "chapter": "08-maraudon-finish",
+          "target": 48,
+          "have": 48.08922575869726
+        }
+      ],
+      "turnins": 117
+    }
+  },
+  "method": "Reordered original XP_budget v1.1.0 event ledger, moved Deadmire hand-in (3900 base XP) from Shen'dralas to the Uldaman Thunder Bluff visit; preserved quest levels, Forever age penalties, and pre-existing 30 XP per kill assumptions. Forecast is not measured play time."
+}

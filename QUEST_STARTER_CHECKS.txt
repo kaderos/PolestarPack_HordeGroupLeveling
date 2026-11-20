@@ -1,0 +1,308 @@
+FIVE FRIENDS: HORDE 43-48 — QUEST STARTER CHECKS — v1.1.0
+Reviewed 18 November 2026
+
+HOW TO USE
+Check only when already passing. Continue immediately if the target or usable object is absent.
+New optional opportunities contribute zero XP and zero kills to the required route forecast.
+Enemy pins are observed check areas, not promises of a fixed or available spawn.
+Only use a starter or make its reward visit when that character actually has the item or active quest.
+All newly added guide goals are note goals: they never hold a step.
+Native pin format is /mappin <UiMapID> <x> <y>, with spaces and percent coordinates.
+
+These notes are embedded beside the listed existing Polestar steps.
+Run one /mappin command at a time. An enemy pin is a check area, not a guaranteed spawn.
+
+MALEVOLENT MIRAGE -> MIRAGE MIRROR
+Zone: Badlands
+Quest IDs: 97821
+New optional notes
+Not included in required XP.
+
+CHECK PINS
+/mappin 1418 39.0 46.0
+Player-reported sighting area
+
+REWARD IF YOU HAVE THE QUEST
+Mus'hale
+/mappin 1418 4.2 46.3
+
+DURING THE ROUTE
+01-preparation-dustwallow — Badlands setup
+OPTIONAL QUEST CHECK: /mappin 1418 39.0 46.0. While crossing the Badlands, watch for Malevolent Mirage's actual name and reddish aura; it can look like an ordinary animal. This is a reported sighting area, not a fixed spawn. If present, kill it together; everyone loots and uses their own Mirage Mirror. Continue if absent.
+
+01-preparation-dustwallow — Badlands hand-ins
+OPTIONAL REWARD IF HELD: Mirage Mirror goes to Mus'hale in Kargath, /mappin 1418 4.2 46.3. Use the looted mirror to start the quest first. Combine this with a normal Kargath return; no mirror means no extra stop.
+
+04-uldaman — Translate in Kargath
+OPTIONAL REWARD IF HELD: Mirage Mirror goes to Mus'hale in Kargath, /mappin 1418 4.2 46.3. Use the looted mirror to start the quest first. Combine this with a normal Kargath return; no mirror means no extra stop.
+
+04-uldaman — Finish the necklace chain
+OPTIONAL REWARD IF HELD: Mirage Mirror goes to Mus'hale in Kargath, /mappin 1418 4.2 46.3. Use the looted mirror to start the quest first. Combine this with a normal Kargath return; no mirror means no extra stop.
+
+EVIDENCE AND LIMITS
+Current Forever player reports identify its disguise, red aura and whole-party starter loot. Quest itself is not shareable; each eligible player should loot and use the starter.
+
+SOURCES
+https://www.wowhead.com/forever/npc=269756/malevolent-mirage
+https://www.wowhead.com/forever/item=278744/mirage-mirror
+https://db.icy-veins.com/wow-forever/npcs/269647
+https://www.wowhead.com/forever/quest=97821/mirage-mirror
+
+
+CORRUPTED NATURE COMPONENT CONTAINERS
+Zone: Feralas
+Quest IDs: 95555, 95556
+New optional checks; interaction availability remains unverified
+Not included in required XP. No promised reward or complete event route.
+
+CHECK PINS
+/mappin 1444 69.6 43.3
+Current Forever map record for Grimtotem Chest
+/mappin 1444 66.4 50.9
+Current Forever map record for Woodpaw Bag
+
+DURING THE ROUTE
+02-tanaris-feralas — Northern named target
+OPTIONAL OBJECT CHECK: /mappin 1444 69.6 43.3. While near the Grimtotem camp, check the Grimtotem Chest by the diseased shaman remains for a Grimtotem Necklace. Keep it for the Broken Woodpaw Staff. The location is in current Forever data; if the container is absent or unusable, continue.
+
+02-tanaris-feralas — Woodpaw introduction collection
+OPTIONAL OBJECT CHECK: /mappin 1444 66.4 50.9. If your Woodpaw circuit passes the dead diseased mystic, inspect the Woodpaw Bag for a Broken Woodpaw Staff. With a Grimtotem Necklace, combine the pieces out of combat into a Diseased Nature Staff and use it to start Corrupted Nature. The bag has a current map record; live loot and availability remain unverified. Skip if unavailable.
+
+02-tanaris-feralas — Southern Feralas rewards
+OPTIONAL BAG CHECK: If you found both Corrupted Nature components, combine the Grimtotem Necklace and Broken Woodpaw Staff out of combat, then use the Diseased Nature Staff. Follow any available in-game quest marker if you choose the extra event; its complete live sequence is not verified or required by this route.
+
+EVIDENCE AND LIMITS
+Current Forever map data places both containers at these coordinates. Current component/staff data confirms the recipe and quest starter. Container-to-component loot association comes from historical SoD descriptions plus the current recipe and item text; current container loot tables are empty. Live availability, per-player collection and the full event remain unverified.
+
+SOURCES
+https://www.wowhead.com/forever/object=443727/grimtotem-chest
+https://www.wowhead.com/forever/npc=223128/dead-diseased-woodpaw-mystic
+https://www.wowhead.com/forever/item=221974/grimtotem-necklace
+https://www.wowhead.com/forever/item=221975/broken-woodpaw-staff
+https://www.wowhead.com/forever/item=221976/diseased-nature-staff
+https://db.icy-veins.com/wow-forever/quests/95555
+https://www.wowhead.com/forever/object=443728/woodpaw-bag
+https://www.wowhead.com/forever/spell=447556/combine-diseased-nature-staff
+
+
+THE OLD KEY
+Zone: Feralas
+Quest IDs: 95599
+Existing scheduled quest; native commands added without duplicating it
+Already counted in the original required route; unchanged.
+
+CHECK PINS
+/mappin 1444 76.6 48.0
+Old Crate beside tent
+
+REWARD IF YOU HAVE THE QUEST
+Underwater Old Chest
+/mappin 1444 79.2 49.4
+
+DURING THE ROUTE
+02-tanaris-feralas — The Old Key starter
+EXISTING ROUTE OBJECT: /mappin 1444 76.6 48.0. Open the Old Crate beside the tent; each player uses their own Old Key to accept. This is the same scheduled quest, not another pickup.
+
+02-tanaris-feralas — The Old Key chest
+EXISTING ROUTE OBJECT: /mappin 1444 79.2 49.4. The Old Chest is underwater. Current reports describe three elementals attacking after the hand-in; keep the party together.
+
+EVIDENCE AND LIMITS
+Current Forever player comment supplies both locations and reports three attacking elementals after the hand-in. Each player uses their own key.
+
+SOURCES
+https://www.wowhead.com/forever/quest=95599/the-old-key
+
+
+NECROMANCERS -> TATTERED JOURNAL
+Zone: Shen'dralas / Desolace
+Quest IDs: 93644
+New optional notes
+Not included in required XP. Loot only incidental kills; never farm books for five people.
+
+CHECK PINS
+/mappin 2652 23.3 22.6
+Outcast Necromancer check area at entrance
+/mappin 2652 40.1 29.5
+Secondary Magram Necromancer reference, not an extra stop
+/mappin 1443 64.0 79.2
+Outcast reference on existing Desolace fragment leg
+
+REWARD IF YOU HAVE THE QUEST
+Mordent Evenshade
+/mappin 2652 35.0 46.7
+
+DURING THE ROUTE
+03-shendralas — Shen'dralas entry
+OPTIONAL STARTER LOOT: /mappin 2652 23.3 22.6 marks an Outcast Necromancer area on the entrance route. Loot necromancers you already kill. If a Tattered Journal drops, use it and deliver it on the next Mordent visit. No extra kills or waiting for five books.
+
+03-shendralas — Strange Pylons
+OPTIONAL STARTER LOOT: Magram Necromancers are also recorded around /mappin 2652 40.1 29.5. Only loot them if your group is already fighting them; do not make a detour or attack friendly centaurs just for Tattered Journal.
+
+03-shendralas — Desolace pylon pieces
+OPTIONAL STARTER LOOT: /mappin 1443 64.0 79.2 is an Outcast Necromancer area near this fragment trip. Loot incidental kills for Tattered Journal and take any book to Mordent on the scheduled return. Skip if the route does not pass them.
+
+03-shendralas — Mordent's investigation
+OPTIONAL REWARD IF HELD: Use any Tattered Journal in your bags, then hand its quest to Mordent here: /mappin 2652 35.0 46.7. Only characters with the journal/quest have this extra reward.
+
+03-shendralas — Return to Mordent
+OPTIONAL REWARD IF HELD: Use any Tattered Journal in your bags, then hand its quest to Mordent here: /mappin 2652 35.0 46.7. Only characters with the journal/quest have this extra reward.
+
+03-shendralas — History lesson
+OPTIONAL REWARD IF HELD: Use any Tattered Journal in your bags, then hand its quest to Mordent here: /mappin 2652 35.0 46.7. Only characters with the journal/quest have this extra reward.
+
+03-shendralas — Hear the history
+OPTIONAL REWARD IF HELD: Use any Tattered Journal in your bags, then hand its quest to Mordent here: /mappin 2652 35.0 46.7. Only characters with the journal/quest have this extra reward.
+
+EVIDENCE AND LIMITS
+Current Icy Forever loot tables list the journal from Outcast Necromancers at20.9% and Magram Necromancers at23.9%; estimates, not guarantees. Party loot unverified. Prefer already-hostile Outcasts rather than changing centaur reputation just for a book.
+
+SOURCES
+https://db.icy-veins.com/wow-forever/npcs/11559
+https://db.icy-veins.com/wow-forever/npcs/253272
+https://www.wowhead.com/forever/item=260347/tattered-journal
+https://zephras.com/forever/enUS/quest/93644/
+
+
+CORPSEFEEDER -> CORPSEFEEDER'S CARAPACE
+Zone: Shen'dralas
+Quest IDs: 93574
+Expanded optional route checks; corrected classification to Elite
+Not included in required XP.
+
+CHECK PINS
+/mappin 2652 44.9 33.4
+Western patrol check near pylon
+/mappin 2652 69.8 30.4
+Eastern patrol check near Bristleback
+
+REWARD IF YOU HAVE THE QUEST
+Kog'thug the Brave
+/mappin 2652 72.6 31.4
+
+DURING THE ROUTE
+03-shendralas — Strange Pylons
+OPTIONAL ELITE CHECK: /mappin 2652 44.9 33.4. Beside the western pylon, watch for rumbling earth from Corpsefeeder. If nearby, approach and defeat it together; everyone checks for Corpsefeeder's Carapace and uses their own starter. This is a patrol check area; continue if absent.
+
+03-shendralas — Investigate the pylons and temple
+OPTIONAL ELITE CHECK on the eastern-pylon leg: /mappin 2652 69.8 30.4. Watch for Corpsefeeder's rumbling-earth patrol while crossing near Bristleback Retreat. If absent, keep going; no patrol lap or respawn wait.
+
+03-shendralas — Investigate the pylons and temple
+OPTIONAL REWARD IF HELD: Use Corpsefeeder's Carapace, then visit Kog'thug the Brave at /mappin 2652 72.6 31.4 while already on this eastern leg. Only make this stop if you have the item or quest.
+
+03-shendralas — Power the pylons
+OPTIONAL ELITE CHECK on the eastern-pylon leg: /mappin 2652 69.8 30.4. Watch for Corpsefeeder's rumbling-earth patrol while crossing near Bristleback Retreat. If absent, keep going; no patrol lap or respawn wait.
+
+03-shendralas — Power the pylons
+OPTIONAL REWARD IF HELD: Use Corpsefeeder's Carapace, then visit Kog'thug the Brave at /mappin 2652 72.6 31.4 while already on this eastern leg. Only make this stop if you have the item or quest.
+
+EVIDENCE AND LIMITS
+Current NPC locations provide patrol check areas. Current comments describe rumbling earth and emergence on approach; starter item lists Party loot. Corpsefeeder is an Elite, not a Rare.
+
+SOURCES
+https://db.icy-veins.com/wow-forever/npcs/253394
+https://www.wowhead.com/forever/npc=253394/corpsefeeder
+https://www.wowhead.com/forever/item=259893/corpsefeeders-carapace
+https://db.icy-veins.com/wow-forever/npcs/253527
+
+
+PROWLER -> PARTIALLY DIGESTED COLLAR
+Zone: Shen'dralas
+Quest IDs: 93568
+New optional notes
+Not included in required XP. Check visible bushes only; never farm collars.
+
+CHECK PINS
+/mappin 2652 34.5 44.4
+Recorded Prowler area near Mordent; look for red-eye bushes
+/mappin 2652 46.9 63.4
+Recorded Prowler area near temple approach; not an exact bush object
+
+REWARD IF YOU HAVE THE QUEST
+Liranne
+/mappin 2652 47.3 65.6
+Place after Meeting the Magister93394; current comments report earlier phasing.
+
+DURING THE ROUTE
+03-shendralas — Mordent's investigation
+OPTIONAL BUSH CHECK: /mappin 2652 34.5 44.4. Near Mordent, look for glowing red eyes in bushes. Walk through a visible eye-bush to reveal a Prowler; loot a Partially Digested Collar if it drops and keep it for Liranne. This is a recorded Prowler area, not a fixed bush. No farming.
+
+03-shendralas — Investigate the pylons and temple
+OPTIONAL BUSH CHECK on the temple approach: /mappin 2652 46.9 63.4. Check nearby red-eye bushes only if visible while passing. A Prowler can drop Partially Digested Collar; keep it even if Liranne is not yet visible.
+
+03-shendralas — Meet the Magister
+OPTIONAL REWARD IF HELD: After Meeting the Magister, take Partially Digested Collar to Liranne at /mappin 2652 47.3 65.6 on your next pass north of the temple. Use the collar to accept first. If Liranne is unavailable, keep it for later; no waiting.
+
+03-shendralas — Test the blade
+OPTIONAL REWARD IF HELD: After Meeting the Magister, take Partially Digested Collar to Liranne at /mappin 2652 47.3 65.6 on your next pass north of the temple. Use the collar to accept first. If Liranne is unavailable, keep it for later; no waiting.
+
+EVIDENCE AND LIMITS
+Current Forever comments describe revealing Prowlers by walking into bushes with red eyes. Reported collar drop samples are about49-55%, below the group's farming threshold. Party loot is unverified.
+
+SOURCES
+https://db.icy-veins.com/wow-forever/npcs/255207
+https://www.wowhead.com/forever/item=259461/partially-digested-collar
+https://db.icy-veins.com/wow-forever/npcs/255385
+
+
+STRANGE PYLONS OBJECT STARTER
+Zone: Shen'dralas
+Quest IDs: 92914
+Existing scheduled quest; native command added
+Already counted in the original required route; unchanged.
+
+CHECK PINS
+/mappin 2652 43.7 34.4
+Western Shen'dralar Pylon, existing route point
+
+DURING THE ROUTE
+03-shendralas — Strange Pylons
+EXISTING ROUTE OBJECT: /mappin 2652 43.7 34.4. Click the western Shen'dralar Pylon to start Strange Pylons on each character. This begins the scheduled access chain used before the collar turn-in.
+
+EVIDENCE AND LIMITS
+Already researched and scheduled in the original guide; each character accepts at the pylon object.
+
+SOURCES
+https://www.wowhead.com/forever/quest=92914/strange-pylons
+
+
+HEAD OF THE OBLITERATOR -> IODAX -> HEART OF THE OBLITERATOR
+Zone: Searing Gorge
+Quest IDs: 93162, 93163
+New optional object/event checks
+Not included in required XP. Optional level50 elite attempt only if parts were obtained naturally and the group wants it.
+
+CHECK PINS
+/mappin 1427 65.9 46.1
+Current head-object location; interaction availability unverified
+
+REWARD IF YOU HAVE THE QUEST
+Thorium Point, exact recipient unverified
+/mappin 1427 37.6 26.5
+Existing route hub arrival only; use the quest marker for actual recipient
+
+DURING THE ROUTE
+05-searing-gorge — First basin pass
+OPTIONAL OBJECT CHECK: /mappin 1427 65.9 46.1. If your eastern basin route passes the Head of the Obliterator, inspect its assembly interaction. It needs one left arm, right arm, left foot and right foot. Keep visible parts encountered during normal questing. Skip an absent or unusable head.
+
+05-searing-gorge — Dark Iron and Cauldron circuit
+OPTIONAL EVENT PARTS: Keep any Left/Right Arm and Left/Right Foot of the Obliterator found during the scheduled mine circuit. Exact live part locations are unverified. No extra tunnels, farming or waiting; carry on with the regular objectives.
+
+05-searing-gorge — Twilight elites and remaining surface kills
+OPTIONAL EVENT IF READY: With all four limbs and a willing group, inspect the head at /mappin 1427 65.9 46.1 and use the available rebuild interaction. Iodax is a level-50 elite. If defeated, everyone checks for Heart of the Obliterator and uses it if looted. Party-wide heart loot is unverified; skip if parts are missing.
+
+05-searing-gorge — Thorium Point rewards
+OPTIONAL REWARD IF HELD: Use Heart of the Obliterator to start its quest. While already in Thorium Point, follow that quest's hand-in marker. The exact recipient is not verified, so the existing hub pin is not a claim about the recipient's position.
+
+EVIDENCE AND LIMITS
+Current quest and item records require one left arm, right arm, left foot and right foot. Exact live limb pickup positions, event execution and party eligibility for the heart remain unverified. No exact limb pins are supplied.
+
+SOURCES
+https://db.icy-veins.com/wow-forever/quests/93162
+https://www.wowhead.com/forever/spell=446363/rebuild-iodax
+https://db.icy-veins.com/wow-forever/items/221257
+https://db.icy-veins.com/wow-forever/items/221256
+https://db.icy-veins.com/wow-forever/items/221259
+https://db.icy-veins.com/wow-forever/items/221258
+https://www.wowhead.com/forever/quest=93163/heart-of-the-obliterator
+
+
