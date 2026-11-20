@@ -1,0 +1,62 @@
+{
+  "version": "1.2.0",
+  "status": "static-package-PS1-and-mock-Lua-runtime-passed",
+  "guide_count": 8,
+  "source_step_counts_before": {
+    "01-preparation-dustwallow": 25,
+    "04-uldaman": 13,
+    "02-tanaris-feralas": 23,
+    "03-shendralas": 29,
+    "05-searing-gorge": 18,
+    "06-hinterlands": 19,
+    "07-zulfarrak": 15,
+    "08-maraudon-finish": 19
+  },
+  "step_counts_after": {
+    "01-preparation-dustwallow": 25,
+    "04-uldaman": 13,
+    "02-tanaris-feralas": 23,
+    "03-shendralas": 28,
+    "05-searing-gorge": 18,
+    "06-hinterlands": 19,
+    "07-zulfarrak": 15,
+    "08-maraudon-finish": 19
+  },
+  "old_goal_count": 376,
+  "new_goal_count": 375,
+  "remaining_level_checkpoints": [
+    [
+      "five-friends-43-48/05-searing-gorge",
+      45
+    ],
+    [
+      "five-friends-43-48/06-hinterlands",
+      46
+    ]
+  ],
+  "import_integrity": "adler32/zlib/base64 round trip",
+  "preserved_guide_ids": [
+    "five-friends-43-48/01-preparation-dustwallow",
+    "five-friends-43-48/04-uldaman",
+    "five-friends-43-48/02-tanaris-feralas",
+    "five-friends-43-48/03-shendralas",
+    "five-friends-43-48/05-searing-gorge",
+    "five-friends-43-48/06-hinterlands",
+    "five-friends-43-48/07-zulfarrak",
+    "five-friends-43-48/08-maraudon-finish"
+  ],
+  "links": [
+    "five-friends-43-48/04-uldaman",
+    "five-friends-43-48/02-tanaris-feralas",
+    "five-friends-43-48/03-shendralas",
+    "five-friends-43-48/05-searing-gorge",
+    "five-friends-43-48/06-hinterlands",
+    "five-friends-43-48/07-zulfarrak",
+    "five-friends-43-48/08-maraudon-finish",
+    null
+  ],
+  "quest_objectives": "original set preserved; Deadmire delivery moved to stage 2; terminal level 48 grind gate removed",
+  "live_playtested": false,
+  "limitations": "Compiled Lua generated from exact archived import JSON fields; not run through Polestar forge or live game. XP uses original ledger and approximate kill assumptions.",
+  "lua_54_syntax_registration_test": "Passed: both pack and guide modules load; eight guides register once, next links resolve, bands match, no terminal level-48 goal remains, Deadmire delivered in Uldaman"
+}

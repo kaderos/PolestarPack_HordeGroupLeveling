@@ -1,0 +1,53 @@
+name: Validate and publish WoW Forever addon
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-and-package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Lua 5.1
+        run: sudo apt-get update && sudo apt-get install -y lua5.1
+      - name: Validate folder, TOC, versions, guide links
+        run: python scripts/validate_pack.py
+      - name: Verify release tag matches addon version
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: python scripts/validate_pack.py --tag "$GITHUB_REF_NAME"
+      - name: Check Lua syntax and registration
+        run: |
+          luac5.1 -p addon/PolestarPack_FiveFriends4348/*.lua
+          lua5.1 tests/smoke.lua .
+          lua5.1 tests/contract.lua .
+      - name: Package WowUp-compatible release asset
+        run: python scripts/build_release.py
+      - name: Upload validated asset to workflow
+        uses: actions/upload-artifact@v4
+        with:
+          name: wow-forever-addon
+          path: dist/*-forever.zip
+      - name: Publish GitHub Release (version tags only)
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*-forever.zip
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # The GitHub repository's Actions token must have contents:write
+        # for the release job. This workflow sets that permission below.
+    permissions:
+      contents: write

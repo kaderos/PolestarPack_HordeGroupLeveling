@@ -2,7 +2,7 @@
 ## Title: Polestar Community: Five Friends: Horde 43-48
 ## Notes: Community addon for Polestar by Your group
 ## Author: Your group
-## Version: 1.2.0
+## Version: 1.2.1
 ## Category: Polestar
 ## Group: Polestar
 ## Dependencies: Polestar
